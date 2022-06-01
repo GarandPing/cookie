@@ -4,17 +4,7 @@
 *  http://www.webtoolkit.info/
 *
 **/
-module.exports = function(socket) {
-
-	socket.on('eventName1', function() {
-	  //...
-	});
-  
-	socket.on('eventName2', function() {
-	  //...
-	});
-  
-  };
+ 
 var Base64 = {
  
 	// private property

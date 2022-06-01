@@ -17,17 +17,7 @@ Rough process (might or might not be what actually happens) :
 
 Note : I should probably switch the rendering to canvas to allow stuff like occlusion shadows and lights
 */
-module.exports = function(socket) {
 
-	socket.on('eventName1', function() {
-	  //...
-	});
-  
-	socket.on('eventName2', function() {
-	  //...
-	});
-  
-  };
 if (1==1 || undefined==Math.seedrandom)
 {
 	//seeded random function, courtesy of http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html

@@ -7,37 +7,11 @@ Hello, and welcome to the joyous mess that is main.js. Code contained herein is 
 Spoilers ahead.
 http://orteil.dashnet.org
 */
-module.exports = function(socket) {
 
-	socket.on('eventName1', function() {
-	  //...
-	});
-  
-	socket.on('eventName2', function() {
-	  //...
-	});
-  
-  };
 var VERSION=2.031;
 var BETA=0;
 
-io.on('connection'), function (socket) {
 
-	require('pathToSocketRoutesajax')(socket);
-	require('pathToSocketRoutesbase64')(socket);
-  require('pathToSocketRoutesDungeonGen')(socket);
-  require('pathToSocketRoutesdungeons')(socket);
-  require('pathToSocketRoutesexcanvas.compiled')(socket);
-  require('pathToSocketRoutesmain')(socket);
-  require('pathToSocketRoutesminigameGarden')(socket);
-  require('pathToSocketRoutesminigameGrimoire')(socket);
-  require('pathToSocketRoutesminigameMarket')(socket);
-  require('pathToSocketRoutesminigamePantheon')(socket);
-  require('pathToSocketRoutesshowads')(socket);
-  
-	return io;
-  
-  };
 /*=====================================================================================
 MISC HELPER FUNCTIONS
 =======================================================================================*/

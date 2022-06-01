@@ -1,15 +1,4 @@
-﻿module.exports = function(socket) {
-
-	socket.on('eventName1', function() {
-	  //...
-	});
-  
-	socket.on('eventName2', function() {
-	  //...
-	});
-  
-  };
-var M={};
+﻿var M={};
 M.parent=Game.Objects['Wizard tower'];
 M.parent.minigame=M;
 M.launch=function()
