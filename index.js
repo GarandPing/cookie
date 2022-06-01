@@ -1,9 +1,7 @@
-const express = require('express');
-const app = express();
-const http = require('http');
-const server = http.createServer(app);
-const { Server } = require("socket.io");
-const io = new Server(server);
+var express = require('express');
+var app = express();
+var server = app.listen(3000);
+var io = require('socket.io').listen(server);
 
 app.get('/', (_req, res) => {
   res.sendFile(__dirname + '/index.html');
